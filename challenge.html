@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It challenge</title>
+    <link rel="stylesheet" href="challenge.css">
+</head>
+<body>
+    <div class="bg-image">
+    </div>
+    <div  class="logo-container">
+         <img class="logo" src="apex-legends-logo-font.png" alt="">
+    </div>
+    <div class="inputs">
+        <input type="text" id="username" placeholder="Enter Your username">
+        <select name="platform" id="platform" >
+            <option value="">Select Your Platform</option>
+            <option value="PC">PC</option>
+            <option value="PS4">PS4</option>
+            <option value="XBOX">XBOX</option>
+        </select>
+    </div>
+    <p id="error-message"></p>
+    <div class="search">
+        <button id="search-but">
+            Search
+        </button>
+    </div>
+    <div id="card-container">
+        <img src="" id="player-icon">
+        <div class="player-info">
+            <p>name: <span id="special-name"></span></p>
+            <p>uid : <span id="special-id"></span></p>
+            <p>level: <span id="special-level"></span></p>
+            <p>rank score : <span id="special-rank"></span></p>
+        </div>
+    </div>
+    <script src="challenge.js"></script>
+</body>
+</html>
